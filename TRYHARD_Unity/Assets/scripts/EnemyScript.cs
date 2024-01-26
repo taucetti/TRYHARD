@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
-    private const string Player_Tag = "Player";
+
 
     private const float Death_Radius = 5F;
     private const float Death_Radius_SQ = Death_Radius * Death_Radius;
@@ -13,6 +13,7 @@ public class EnemyScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Declaration of Player
         playerGameObject = GameObject.Find("Player");
     }
 
