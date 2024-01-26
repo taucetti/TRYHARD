@@ -2037,8 +2037,8 @@ Transform:
   m_GameObject: {fileID: 276725567}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -55.97, y: 14.24, z: 14.12}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -69.72, y: 1.63, z: -3.16}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 917834360}
@@ -2060,7 +2060,7 @@ MonoBehaviour:
   walkingSpeed: 7.5
   runningSpeed: 11.5
   jumpSpeed: 8
-  gravity: 20
+  gravity: 40
   playerCamera: {fileID: 828430489}
   lookSpeed: 2
   lookXLimit: 45
